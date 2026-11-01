@@ -1,16 +1,74 @@
 # Power BI Dashboards
 
-Academic projects | Data Analytics Programme, IIM Sirmaur × Masai
+**Academic dashboard portfolio | Data Analytics Programme, IIM Sirmaur × Masai**
 
-## 1. Joined Dashboard (Hiring Analysis)
-- **Dataset:** Provided as part of the course (not included in this repository)
-- **Focus:** Candidate joining outcomes by work experience, salary band, gender, candidate source, marital status, location, hike percentage, DOJ extension, notice period and age
-- **Highlights:** Of about 17K candidates, 52.25% joined (8.93K) and 47.75% did not (8.16K). Direct Application is the largest candidate source, and most candidates are in salary band M1 with low work experience.
+This repository presents two Power BI dashboard projects. The datasets were provided as part of coursework and are not included in this repository.
 
-## 2. Credit Card Dashboard (Default Analysis)
-- **Dataset:** Provided as part of the course (not included in this repository)
-- **Focus:** Credit card defaults by age, gender, employment, education level, marital status, race and number of kids
-- **Highlights:** Default counts are higher for females than males in every segment shown, and highest among under-graduate and unmarried customers. These are counts, not rates, and the analysis is exploratory only.
+## Dashboard 1 — Hiring and Joining Analysis
+
+**File:** `joined dashboard.pdf`
+
+### Analysis focus
+Explores candidate joining outcomes across variables such as work experience, salary band, candidate source, location, notice period, age, and other recorded attributes.
+
+### Reported observations
+- Approximately 17,000 candidate records were analysed.
+- The report indicates that about 52.25% joined and 47.75% did not join.
+- Direct Application was reported as the largest candidate source.
+
+Treat these as descriptive findings from the course dataset, not proof of causation. Validate the underlying dashboard and figures before presenting them externally.
+
+### Potential business questions
+- Which candidate sources contribute the most applicants and joiners?
+- How do joining outcomes vary across salary bands and experience levels?
+- Which segments may warrant further recruitment-process investigation?
+
+## Dashboard 2 — Credit Card Default Analysis
+
+**File:** `credit card deshboard.pdf`
+
+### Analysis focus
+Explores recorded default counts across demographic and socioeconomic categories such as age, gender, employment, education, marital status, and number of children.
+
+### Interpretation note
+The current summary describes **counts**, not default rates. Counts alone cannot establish that one group has a higher likelihood of default because group sizes may differ. Rate comparisons require appropriate denominators and careful treatment of sensitive attributes.
+
+### Potential business questions
+- How are observed defaults distributed across the available categories?
+- What additional denominators and variables are needed to compare rates responsibly?
+- Which follow-up analyses could distinguish population size from risk?
 
 ## Tools
-Power BI Desktop
+
+- Microsoft Power BI Desktop
+- Data visualization and dashboard interpretation
+
+## Files
+
+- `joined dashboard.pdf` — exported hiring/joining dashboard.
+- `credit card deshboard.pdf` — exported credit-card default dashboard.
+
+If available, consider adding sanitized screenshots and the `.pbix` files, provided you have permission to share them and the source data is not confidential.
+
+## How to Review
+
+1. Open each PDF.
+2. Review the visuals, filters, labels, and KPI definitions.
+3. Verify all figures against the original report.
+4. Check whether each chart shows counts, percentages, or rates.
+5. Document any limitations and the business question each visual addresses.
+
+## Limitations
+
+- Course datasets are not included, so results may not be independently reproducible from this repository alone.
+- Dashboard observations are descriptive and do not establish causation.
+- Credit and demographic analysis should be interpreted carefully; demographic patterns should not be treated as justification for discriminatory decisions.
+
+## Project Status
+
+**Academic dashboard projects.** No live deployment, organizational adoption, or measured business impact is claimed.
+
+## Author
+
+Rahul | [GitHub Profile](https://github.com/imrahul11299-netizen)
+
